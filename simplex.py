@@ -31,7 +31,7 @@ def standart_pl(c,A,b, b_signs):
             A[i,:] = A[i,:] * (-1)
             b[i] = b[i] * (-1)
         
-        if b_signs[i] == "=" :
+        if b_signs[i] == "==" :
             
             A = np.vstack((A, -A[i, :]))
             b.append(-b[i])
