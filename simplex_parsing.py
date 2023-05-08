@@ -127,8 +127,8 @@ def add_constraint(input):
             b_sign = "<="
             continue
 
-        elif word == "=":
-            b_sign = "="
+        elif word == "==":
+            b_sign = "=="
             continue
         
         if word[0] == "+":
